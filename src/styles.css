@@ -1,0 +1,51 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+.search-bar {
+  padding-right: 0;
+}
+.search-button {
+  padding-left: 0;
+  width: 52px;
+}
+.date {
+  padding: 7px;
+}
+.location-button {
+  width: 64px;
+}
+.city-name {
+  margin: 10px 0;
+}
+.todays-weather {
+  margin: 10px 0;
+}
+.current-weather {
+  margin: 20px;
+  width: 110px;
+}
+.other-days {
+  margin-right: 28px;
+}
+.other-days-title {
+  text-align: center;
+}
+.other-days-temp {
+  text-align: center;
+}
+.weather {
+  width: 120px;
+  margin-left: 20px;
+}
+.sunny {
+  width: 103px;
+  margin-left: 30px;
+}
+.rainy {
+  width: 98px;
+  margin-left: 35px;
+}
+#searched-city {
+  text-transform: capitalize;
+}
