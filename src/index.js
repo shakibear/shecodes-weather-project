@@ -36,6 +36,10 @@ let actualTime = document.querySelector("#actual-time");
 if (minute < 10) {
   let newMinute = `0${minute}`;
   actualTime.innerHTML = `${day} ${hour}:${newMinute}`;
+}
+if (hour < 10) {
+  let newHour = `0${hour}`;
+  actualTime.innerHTML = `${day} ${newHour}:${minute}`;
 } else {
   actualTime.innerHTML = `${day} ${hour}:${minute}`;
 }
