@@ -49,3 +49,9 @@ a {
 #searched-city {
   text-transform: capitalize;
 }
+#github {
+  font-family: monospace;
+}
+#github-link {
+  font-weight: bold;
+}
